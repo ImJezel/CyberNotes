@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+body{
+margin: 0;
+padding: 0;
+background-color: #636480;
+overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title {
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    top: 1;
+    font-family: 'Bungee', cursive;
+    font-size: 70px;
+    background-clip: text;
+    text-shadow: -3px 2px 0px rgb(255, 0, 238), 4px -2px 0px rgb(0, 208, 255) ;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #d9d9d9;
+    text-align: center;
+    padding: 10px 30px;
+    box-shadow: 0 5px 10px rgba(0, 85, 255, 0.7);
+    border-radius: 20px;
+    max-width: 25%;
+    max-height: 25%;
+    
+}
+
+.title a {
+    text-decoration:none;
+    color: white;
+}
+form .title{
+    font-family: 'Bungee', cursive;
+    font-family: 'Shrikhand', cursive;
+    text-shadow: -3px 2px 0px rgb(255, 0, 238), 4px -2px 0px rgb(0, 208, 255) ;
+    color : #f6f2e9;
+}
+
+form .gmail{
+    font-family: 'Chewy', cursive;
+    padding: 10px 100px;
+    border-radius: 20px;
+    border: none;
+}
+
+form .contra{
+    margin-top: 10px;
+    padding: 10px 100px;
+    font-family: 'Chewy', cursive;
+    border-radius: 20px;
+    border: none;
+
+
+}
+
+form .BTNregister{
+    font-size: 20px;
+    font-family: 'Chewy', cursive;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 11px 15px;
+    background-color: #636480;
+    border-color: rgb(0, 4, 255);
+    border-radius: 50px;
+    cursor: pointer;
+transition: all 0.3s ease 0s;
+margin-bottom: 10px;
+
+
+}
+
+form .BTNregister:hover{
+    background-color: #79b3ff;
+    color:#ffffff;
+    transform: scale(0.9);
+    border-radius: 200px;
+  background-clip: text;
+  text-shadow: -1px 1px 0px rgb(255, 0, 221), 1px -2px 0px rgb(0, 195, 255);
+}
